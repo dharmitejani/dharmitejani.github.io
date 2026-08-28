@@ -1,0 +1,83 @@
+{
+  "sectionTitle": "Capabilities",
+  "subtitle": "A focused toolkit built through hands-on, real-world work.",
+  "categories": [
+    {
+      "category": "Programming Languages",
+      "icon": "fas fa-code",
+      "color": "#FF6B6B",
+      "skills": [
+        "SQL",
+        "Python",
+        "R",
+        "VBA/Macros"
+      ]
+    },
+    {
+      "category": "Frameworks & Libraries",
+      "icon": "fas fa-toolbox",
+      "color": "#4ECDC4",
+      "skills": [
+        "Pandas",
+        "NumPy",
+        "Scikit-learn"
+      ]
+    },
+    {
+      "category": "Tools & Platforms",
+      "icon": "fas fa-wrench",
+      "color": "#FFE66D",
+      "skills": [
+        "Advanced Excel",
+        "Pivot Tables",
+        "Power Query",
+        "Solver",
+        "Power BI",
+        "Tableau",
+        "Power Pivot",
+        "Google Data Studio",
+        "DAX",
+        "SAP IBP",
+        "SAP MM/WM/SD",
+        "Kinaxis Rapid Response",
+        "Blue Yonder (JDA)",
+        "Oracle SCM Cloud",
+        "Microsoft Dynamics 365",
+        "NetSuite"
+      ]
+    },
+    {
+      "category": "Technical Skills",
+      "icon": "fas fa-laptop-code",
+      "color": "#A8DADC",
+      "skills": [
+        "Statistical Forecasting",
+        "Regression & Time-Series Modeling",
+        "Demand Planning & Forecasting",
+        "S&OP/IBP",
+        "Inventory Optimization",
+        "Procurement & Sourcing Analytics",
+        "Network Design",
+        "Warehouse & Distribution Management",
+        "Transportation Management (TMS)",
+        "AI/ML-Driven Demand Sensing",
+        "Control Tower Visibility",
+        "Digital Twin Simulation",
+        "IoT-Enabled Track & Trace",
+        "Robotic Process Automation (RPA)",
+        "Blockchain for Traceability",
+        "Supplier Risk Assessment",
+        "ESG & Sustainability Reporting",
+        "Regulatory Compliance (FDA/OSHA/Customs)",
+        "Business Continuity Planning",
+        "Lean Six Sigma",
+        "Agile/Scrum",
+        "Root Cause Analysis (RCA)",
+        "Kaizen",
+        "Executive Presentation & Reporting",
+        "Vendor Negotiation",
+        "Cross-Functional Collaboration"
+      ]
+    }
+  ]
+}

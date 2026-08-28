@@ -1,0 +1,59 @@
+{
+  "greeting": "Portfolio",
+  "name": "Dharmi Tejani",
+  "title": "Supply Chain Analyst",
+  "summary": "Supply Chain Analyst with 3+ years of experience optimizing end-to-end supply chain operations across procurement, demand planning, and logistics. Proven track record leveraging AI-driven forecasting, control-tower visibility platforms, and S&OP digitalization to reduce costs and improve service levels. Skilled in SQL, Python, Power BI, and leading planning systems (SAP IBP, Kinaxis, Blue Yonder). Adept at translating complex data into actionable insights for cross-functional stakeholders in fast-paced, multinational environments.",
+  "avatarUrl": "",
+  "tagline": "SQL / Python / R / VBA/Macros / Pandas",
+  "highlights": [
+    {
+      "icon": "fas fa-briefcase",
+      "text": "3+ Years Experience",
+      "color": "#FF6B6B"
+    },
+    {
+      "icon": "fas fa-project-diagram",
+      "text": "1 Project Delivered",
+      "color": "#4ECDC4"
+    },
+    {
+      "icon": "fas fa-code",
+      "text": "SQL, Python, R",
+      "color": "#FFE66D"
+    }
+  ],
+  "cta": {
+    "buttons": [
+      {
+        "text": "Contact Me",
+        "href": "#contact",
+        "type": "primary",
+        "external": false,
+        "icon": "fas fa-envelope"
+      },
+      {
+        "text": "Explore Projects",
+        "href": "#projects",
+        "type": "secondary",
+        "external": false,
+        "icon": "fas fa-chart-line"
+      }
+    ]
+  },
+  "socialLinks": [
+    {
+      "platform": "LinkedIn",
+      "url": "https://www.linkedin.com/in/dharmi-tejani-888710368",
+      "icon": "fab fa-linkedin"
+    },
+    {
+      "platform": "Email",
+      "url": "mailto:dharmitejani1602@gmail.com",
+      "icon": "fas fa-envelope"
+    }
+  ],
+  "scrollIndicator": {
+    "text": "Scroll to explore",
+    "icon": "fas fa-chevron-down"
+  }
+}

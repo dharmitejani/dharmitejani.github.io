@@ -1,0 +1,290 @@
+{
+  "sectionTitle": "Selected Projects",
+  "subtitle": "Work that shows structured thinking, clean execution, and real outcomes.",
+  "projects": [
+    {
+      "title": "AI-Based Supply Chain Demand Forecasting & Inventory Optimization",
+      "description": "Developed a machine learning-based demand forecasting model using Python, SQL, and Power BI to analyze historical sales and inventory data, improving forecast accuracy by 15%.\nBuilt an interactive dashboard to monitor key supply chain KPIs, including inventory turnover, fill rate, stock availability, and supplier performance, enabling data-driven decision-making.\nApplied ABC Analysis, EOQ, and safety stock optimization techniques to recommend inventory replenishment strategies, reducing projected stockouts and excess inventory.",
+      "longDescription": "Developed a machine learning-based demand forecasting model using Python, SQL, and Power BI to analyze historical sales and inventory data, improving forecast accuracy by 15%.\nBuilt an interactive dashboard to monitor key supply chain KPIs, including inventory turnover, fill rate, stock availability, and supplier performance, enabling data-driven decision-making.\nApplied ABC Analysis, EOQ, and safety stock optimization techniques to recommend inventory replenishment strategies, reducing projected stockouts and excess inventory.",
+      "category": "Backend Development",
+      "technologies": [
+        "SQL",
+        "Python",
+        "Power BI",
+        "Microsoft Excel",
+        "Forecasting",
+        "ABC Analysis",
+        "EOQ",
+        "Safety Stock Optimization",
+        "Inventory Management"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#FF6B6B",
+      "image": "",
+      "featured": true,
+      "github": "",
+      "demo": "",
+      "links": {
+        "github": "",
+        "demo": "",
+        "live": ""
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "specsage",
+      "description": "Educational project for mastering software architecture",
+      "longDescription": "Educational project for mastering software architecture",
+      "category": "Backend Development",
+      "technologies": [
+        "Python",
+        "Makefile",
+        "Dockerfile"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#4ECDC4",
+      "image": "",
+      "featured": true,
+      "github": "https://github.com/dharmitejani/specsage",
+      "demo": "https://github.com/dharmitejani/specsage",
+      "links": {
+        "github": "https://github.com/dharmitejani/specsage",
+        "demo": "https://github.com/dharmitejani/specsage",
+        "live": "https://github.com/dharmitejani/specsage"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "advanced-rag-llm-app",
+      "description": "Full-featured application built as a learning exercise",
+      "longDescription": "Full-featured application built as a learning exercise",
+      "category": "Backend Development",
+      "technologies": [
+        "Dockerfile",
+        "Makefile",
+        "Python"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#FFE66D",
+      "image": "",
+      "featured": true,
+      "github": "https://github.com/dharmitejani/advanced-rag-llm-app",
+      "demo": "https://github.com/dharmitejani/advanced-rag-llm-app",
+      "links": {
+        "github": "https://github.com/dharmitejani/advanced-rag-llm-app",
+        "demo": "https://github.com/dharmitejani/advanced-rag-llm-app",
+        "live": "https://github.com/dharmitejani/advanced-rag-llm-app"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "contextforge",
+      "description": "Comprehensive project exploring software design patterns",
+      "longDescription": "Comprehensive project exploring software design patterns",
+      "category": "Software Development",
+      "technologies": [
+        "TypeScript",
+        "JavaScript",
+        "Dockerfile",
+        "CSS"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#A8DADC",
+      "image": "",
+      "featured": false,
+      "github": "https://github.com/dharmitejani/contextforge",
+      "demo": "https://github.com/dharmitejani/contextforge",
+      "links": {
+        "github": "https://github.com/dharmitejani/contextforge",
+        "demo": "https://github.com/dharmitejani/contextforge",
+        "live": "https://github.com/dharmitejani/contextforge"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "sentinel-triage",
+      "description": "Comprehensive project exploring software design patterns",
+      "longDescription": "Comprehensive project exploring software design patterns",
+      "category": "Backend Development",
+      "technologies": [
+        "Python",
+        "Dockerfile"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#B19CD9",
+      "image": "",
+      "featured": false,
+      "github": "https://github.com/dharmitejani/sentinel-triage",
+      "demo": "https://github.com/dharmitejani/sentinel-triage",
+      "links": {
+        "github": "https://github.com/dharmitejani/sentinel-triage",
+        "demo": "https://github.com/dharmitejani/sentinel-triage",
+        "live": "https://github.com/dharmitejani/sentinel-triage"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "mlops-app",
+      "description": "Fully functional implementation with comprehensive features",
+      "longDescription": "Fully functional implementation with comprehensive features",
+      "category": "Backend Development",
+      "technologies": [
+        "HCL",
+        "Python",
+        "Jupyter Notebook",
+        "Dockerfile",
+        "Shell"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#2FC4B2",
+      "image": "",
+      "featured": false,
+      "github": "https://github.com/dharmitejani/mlops-app",
+      "demo": "https://github.com/dharmitejani/mlops-app",
+      "links": {
+        "github": "https://github.com/dharmitejani/mlops-app",
+        "demo": "https://github.com/dharmitejani/mlops-app",
+        "live": "https://github.com/dharmitejani/mlops-app"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "agentops-sentinel",
+      "description": "Interactive application built for continuous learning",
+      "longDescription": "Interactive application built for continuous learning",
+      "category": "Backend Development",
+      "technologies": [
+        "Python",
+        "HTML",
+        "Dockerfile"
+      ],
+      "icon": "fas fa-brain",
+      "color": "#F2C14E",
+      "image": "",
+      "featured": false,
+      "github": "https://github.com/dharmitejani/agentops-sentinel",
+      "demo": "https://github.com/dharmitejani/agentops-sentinel",
+      "links": {
+        "github": "https://github.com/dharmitejani/agentops-sentinel",
+        "demo": "https://github.com/dharmitejani/agentops-sentinel",
+        "live": "https://github.com/dharmitejani/agentops-sentinel"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "driftguard",
+      "description": "Full-featured application built as a learning exercise",
+      "longDescription": "Full-featured application built as a learning exercise",
+      "category": "Backend Development",
+      "technologies": [
+        "Python",
+        "Dockerfile"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#FF6B6B",
+      "image": "",
+      "featured": false,
+      "github": "https://github.com/dharmitejani/driftguard",
+      "demo": "https://github.com/dharmitejani/driftguard",
+      "links": {
+        "github": "https://github.com/dharmitejani/driftguard",
+        "demo": "https://github.com/dharmitejani/driftguard",
+        "live": "https://github.com/dharmitejani/driftguard"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "driftguard-llm",
+      "description": "Educational project for mastering software architecture",
+      "longDescription": "Educational project for mastering software architecture",
+      "category": "Backend Development",
+      "technologies": [
+        "Python",
+        "Dockerfile"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#4ECDC4",
+      "image": "",
+      "featured": false,
+      "github": "https://github.com/dharmitejani/driftguard-llm",
+      "demo": "https://github.com/dharmitejani/driftguard-llm",
+      "links": {
+        "github": "https://github.com/dharmitejani/driftguard-llm",
+        "demo": "https://github.com/dharmitejani/driftguard-llm",
+        "live": "https://github.com/dharmitejani/driftguard-llm"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "modelcard",
+      "description": "Practice application demonstrating full-stack development skills",
+      "longDescription": "Practice application demonstrating full-stack development skills",
+      "category": "Development",
+      "technologies": [],
+      "icon": "fas fa-project-diagram",
+      "color": "#FFE66D",
+      "image": "",
+      "featured": false,
+      "github": "https://github.com/dharmitejani/modelcard",
+      "demo": "https://github.com/dharmitejani/modelcard",
+      "links": {
+        "github": "https://github.com/dharmitejani/modelcard",
+        "demo": "https://github.com/dharmitejani/modelcard",
+        "live": "https://github.com/dharmitejani/modelcard"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "ai_soc",
+      "description": "Practice repository for exploring advanced features",
+      "longDescription": "Practice repository for exploring advanced features",
+      "category": "Development",
+      "technologies": [],
+      "icon": "fas fa-project-diagram",
+      "color": "#A8DADC",
+      "image": "",
+      "featured": false,
+      "github": "https://github.com/dharmitejani/ai_soc",
+      "demo": "https://github.com/dharmitejani/ai_soc",
+      "links": {
+        "github": "https://github.com/dharmitejani/ai_soc",
+        "demo": "https://github.com/dharmitejani/ai_soc",
+        "live": "https://github.com/dharmitejani/ai_soc"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    }
+  ]
+}

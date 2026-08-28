@@ -1,0 +1,40 @@
+{
+  "sectionTitle": "About",
+  "subtitle": "A closer look at my background, how I work, and the results I deliver.",
+  "image": "",
+  "paragraphs": [
+    "Supply Chain Analyst with 3+ years of experience optimizing end-to-end supply chain operations across procurement, demand planning, and logistics. Proven track record leveraging AI-driven forecasting, control-tower visibility platforms, and S&OP digitalization to reduce costs and improve service levels.",
+    "Skilled in SQL, Python, Power BI, and leading planning systems (SAP IBP, Kinaxis, Blue Yonder). Adept at translating complex data into actionable insights for cross-functional stakeholders in fast-paced, multinational environments."
+  ],
+  "statistics": [
+    {
+      "icon": "fas fa-briefcase",
+      "value": "3+",
+      "label": "Years Experience",
+      "color": "#FF6B6B"
+    },
+    {
+      "icon": "fas fa-project-diagram",
+      "value": "1",
+      "label": "Project",
+      "color": "#4ECDC4"
+    },
+    {
+      "icon": "fas fa-building",
+      "value": "2",
+      "label": "Companies",
+      "color": "#FFE66D"
+    },
+    {
+      "icon": "fas fa-code",
+      "value": "49+",
+      "label": "Technologies",
+      "color": "#A8DADC"
+    }
+  ],
+  "downloadCV": {
+    "text": "Get In Touch",
+    "href": "mailto:dharmitejani1602@gmail.com",
+    "icon": "fas fa-envelope"
+  }
+}

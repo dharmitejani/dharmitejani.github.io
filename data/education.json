@@ -1,0 +1,28 @@
+{
+  "sectionTitle": "Education",
+  "subtitle": "Academic foundation supporting my professional work.",
+  "certificationsTitle": "Certifications",
+  "education": [
+    {
+      "degree": "Masters of Science in Business Analytics",
+      "school": "Sacred Heart University",
+      "institution": "Sacred Heart University",
+      "period": "2026",
+      "details": "",
+      "description": "",
+      "icon": "fas fa-graduation-cap",
+      "color": "#2FC4B2"
+    },
+    {
+      "degree": "Bachelors of Science in Information Technology",
+      "school": "P. P. Savani University",
+      "institution": "P. P. Savani University",
+      "period": "2024",
+      "details": "",
+      "description": "",
+      "icon": "fas fa-university",
+      "color": "#F2C14E"
+    }
+  ],
+  "certifications": []
+}

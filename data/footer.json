@@ -1,0 +1,34 @@
+{
+  "copyright": {
+    "text": "© 2026 Dharmi Tejani. All rights reserved.",
+    "year": "2026",
+    "name": "Dharmi Tejani"
+  },
+  "tagline": "Supply Chain Analyst",
+  "links": [
+    {
+      "text": "Email",
+      "href": "mailto:dharmitejani1602@gmail.com"
+    },
+    {
+      "text": "LinkedIn",
+      "href": "https://www.linkedin.com/in/dharmi-tejani-888710368"
+    }
+  ],
+  "socialLinks": [
+    {
+      "platform": "LinkedIn",
+      "url": "https://www.linkedin.com/in/dharmi-tejani-888710368",
+      "icon": "fab fa-linkedin"
+    },
+    {
+      "platform": "Email",
+      "url": "mailto:dharmitejani1602@gmail.com",
+      "icon": "fas fa-envelope"
+    }
+  ],
+  "backToTop": {
+    "text": "Back to Top",
+    "icon": "fas fa-chevron-up"
+  }
+}

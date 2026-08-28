@@ -1,0 +1,52 @@
+{
+  "sectionTitle": "Professional Experience",
+  "subtitle": "Roles, responsibilities, and the impact delivered along the way.",
+  "experiences": [
+    {
+      "title": "Supply Chain Analyst",
+      "company": "PepsiCo",
+      "logo": "",
+      "period": "Jan 2026 – Present",
+      "location": "",
+      "description": "Leading the rollout of an AI-driven demand sensing model integrating point-of-sale, weather, and macroeconomic data, improving short-term forecast accuracy by 18% and reducing stockouts across 200+ SKUs.\nBuilt and maintain a real-time control tower dashboard (Power BI + SAP IBP) providing end-to-end shipment and inventory visibility across 12 distribution centers, cutting exception-response time by 30%.\nPartnering with Procurement and Sustainability teams to launch an ESG and supplier-compliance reporting framework, aligning with emerging U.S. reporting requirements and reducing audit turnaround by 25%\nDriving a network optimization and digital twin simulation initiative to model distribution-center consolidation scenarios, identifying $1.2M in projected annual freight savings.\nLeading monthly S&OP/IBP cycles, aligning Sales, Finance, and Operations on a rolling 18-month demand and supply plan; presenting insights directly to senior leadership.\nMentoring 2 junior analysts on forecasting methodology and Power BI dashboard development.",
+      "responsibilities": [
+        "Leading the rollout of an AI-driven demand sensing model integrating point-of-sale, weather, and macroeconomic data, improving short-term forecast accuracy by 18% and reducing stockouts across 200+ SKUs",
+        "Built and maintain a real-time control tower dashboard (Power BI + SAP IBP) providing end-to-end shipment and inventory visibility across 12 distribution centers, cutting exception-response time by 30%",
+        "Partnering with Procurement and Sustainability teams to launch an ESG and supplier-compliance reporting framework, aligning with emerging U",
+        "reporting requirements and reducing audit turnaround by 25%",
+        "Driving a network optimization and digital twin simulation initiative to model distribution-center consolidation scenarios, identifying $1",
+        "2M in projected annual freight savings",
+        "Leading monthly S&OP/IBP cycles, aligning Sales, Finance, and Operations on a rolling 18-month demand and supply plan; presenting insights directly to senior leadership",
+        "Mentoring 2 junior analysts on forecasting methodology and Power BI dashboard development"
+      ],
+      "technologies": [
+        "Power BI",
+        "SAP IBP"
+      ]
+    },
+    {
+      "title": "Supply Chain Analyst",
+      "company": "Intex Technologies",
+      "logo": "",
+      "period": "Sep 2022 – Dec 2024",
+      "location": "",
+      "description": "Analyzed multi-region demand and inventory data using SQL and Python to support a demand planning transformation project, reducing excess inventory by 15% within the first year.\nSupported implementation of a Kinaxis Rapid Response planning module, streamlining S&OP data consolidation and cutting planning-cycle time from 10 days to 6.\nAutomated recurring reporting workflows using RPA and Power Query, saving an estimated 12 hours per week across the planning team.\nConducted supplier risk and spend analysis across 150+ vendors, identifying consolidation opportunities that reduced procurement costs by 8%.\nCollaborated with Logistics on TMS route optimization, improving on-time delivery performance from 91% to 96%.\nDelivered weekly KPI reporting (fill rate, forecast accuracy, inventory turns) to cross-functional stakeholders using Tableau dashboards.",
+      "responsibilities": [
+        "Analyzed multi-region demand and inventory data using SQL and Python to support a demand planning transformation project, reducing excess inventory by 15% within the first year",
+        "Supported implementation of a Kinaxis Rapid Response planning module, streamlining S&OP data consolidation and cutting planning-cycle time from 10 days to 6",
+        "Automated recurring reporting workflows using RPA and Power Query, saving an estimated 12 hours per week across the planning team",
+        "Conducted supplier risk and spend analysis across 150+ vendors, identifying consolidation opportunities that reduced procurement costs by 8%",
+        "Collaborated with Logistics on TMS route optimization, improving on-time delivery performance from 91% to 96%",
+        "Delivered weekly KPI reporting (fill rate, forecast accuracy, inventory turns) to cross-functional stakeholders using Tableau dashboards"
+      ],
+      "technologies": [
+        "SQL",
+        "Python",
+        "Kinaxis Rapid Response",
+        "RPA",
+        "Power Query",
+        "Tableau"
+      ]
+    }
+  ]
+}
