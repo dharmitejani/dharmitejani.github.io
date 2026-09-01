@@ -120,19 +120,6 @@ async function loadHero() {
         document.getElementById('hero-tagline').textContent = data.tagline;
         document.getElementById('hero-summary').textContent = data.summary;
 
-        // Portrait and proof card (fall back to the bundled artwork if absent)
-        const portrait = document.querySelector('.portrait-frame img');
-        if (portrait && data.avatarUrl) {
-            portrait.src = data.avatarUrl;
-            portrait.alt = `${data.name} portrait`;
-        }
-        if (data.proof) {
-            const proofKicker = document.querySelector('.hero-proof .proof-kicker');
-            const proofText = document.querySelector('.hero-proof strong');
-            if (proofKicker && data.proof.kicker) proofKicker.textContent = data.proof.kicker;
-            if (proofText && data.proof.text) proofText.textContent = data.proof.text;
-        }
-
         // Render highlights
         const highlightsContainer = document.getElementById('hero-highlights');
         if (highlightsContainer && data.highlights) {
@@ -339,12 +326,19 @@ async function loadProjects() {
         if (projectsGrid && data.projects) {
             projectsGrid.innerHTML = data.projects.map((project, index) => `
                 <div class="project-card" style="--project-color: ${project.color}">
-                    <div class="project-visual">
-                        <div class="project-icon" style="background: ${project.color}">
-                            <i class="${project.icon}"></i>
+                    ${project.image ? `
+                        <div class="project-visual project-cover">
+                            <img src="${project.image}" alt="${project.title}" loading="lazy">
+                            <span class="project-number">${String(index + 1).padStart(2, '0')}</span>
                         </div>
-                        <span class="project-number">${String(index + 1).padStart(2, '0')}</span>
-                    </div>
+                    ` : `
+                        <div class="project-visual">
+                            <div class="project-icon" style="background: ${project.color}">
+                                <i class="${project.icon}"></i>
+                            </div>
+                            <span class="project-number">${String(index + 1).padStart(2, '0')}</span>
+                        </div>
+                    `}
                     <div class="project-header">
                         ${project.category ? `<span class="project-category">${project.category}</span>` : ''}
                         <h3 class="project-title">${project.title}</h3>
