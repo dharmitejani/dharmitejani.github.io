@@ -36,13 +36,16 @@
     },
     {
       "title": "specsage",
-      "description": "Educational project for mastering software architecture",
-      "longDescription": "Educational project for mastering software architecture",
+      "description": "Retrieval-augmented question answering over a pinned corpus of IETF RFCs: documents are fetched, chunked, embedded, and indexed into Qdrant, then served through an API and web UI. Ships with an evaluation harness that scores both retrieval and generation quality, so answer accuracy is measured rather than assumed.",
+      "longDescription": "Retrieval-augmented question answering over a pinned corpus of IETF RFCs: documents are fetched, chunked, embedded, and indexed into Qdrant, then served through an API and web UI. Ships with an evaluation harness that scores both retrieval and generation quality, so answer accuracy is measured rather than assumed.",
       "category": "Backend Development",
       "technologies": [
         "Python",
-        "Makefile",
-        "Dockerfile"
+        "Qdrant",
+        "Ollama",
+        "RAG",
+        "Docker",
+        "pytest"
       ],
       "icon": "fas fa-project-diagram",
       "color": "#4ECDC4",
@@ -62,13 +65,16 @@
     },
     {
       "title": "advanced-rag-llm-app",
-      "description": "Full-featured application built as a learning exercise",
-      "longDescription": "Full-featured application built as a learning exercise",
+      "description": "Advanced RAG application with LLM API integrations, inline citations, and a built-in evaluation flow. FastAPI backend with Pydantic-validated endpoints and support for PDF and text document ingestion.",
+      "longDescription": "Advanced RAG application with LLM API integrations, inline citations, and a built-in evaluation flow. FastAPI backend with Pydantic-validated endpoints and support for PDF and text document ingestion.",
       "category": "Backend Development",
       "technologies": [
-        "Dockerfile",
-        "Makefile",
-        "Python"
+        "Python",
+        "FastAPI",
+        "OpenAI API",
+        "Pydantic",
+        "RAG",
+        "pytest"
       ],
       "icon": "fas fa-project-diagram",
       "color": "#FFE66D",
@@ -88,14 +94,15 @@
     },
     {
       "title": "contextforge",
-      "description": "Comprehensive project exploring software design patterns",
-      "longDescription": "Comprehensive project exploring software design patterns",
+      "description": "Self-hostable documentation answer bot that responds with answers grounded in and citing your own docs (Markdown, PDFs, or URLs) — and explicitly abstains when retrieval confidence is too low to trust an answer. Ships as an embeddable one-script-tag widget, a chat demo page, and an admin queue that turns every unanswered question into a prioritized docs backlog.",
+      "longDescription": "Self-hostable documentation answer bot that responds with answers grounded in and citing your own docs (Markdown, PDFs, or URLs) — and explicitly abstains when retrieval confidence is too low to trust an answer. Ships as an embeddable one-script-tag widget, a chat demo page, and an admin queue that turns every unanswered question into a prioritized docs backlog.",
       "category": "Software Development",
       "technologies": [
         "TypeScript",
         "JavaScript",
-        "Dockerfile",
-        "CSS"
+        "pgvector",
+        "RAG",
+        "Docker"
       ],
       "icon": "fas fa-project-diagram",
       "color": "#A8DADC",
@@ -115,12 +122,16 @@
     },
     {
       "title": "sentinel-triage",
-      "description": "Comprehensive project exploring software design patterns",
-      "longDescription": "Comprehensive project exploring software design patterns",
+      "description": "SOC alert-triage pipeline: endpoint and auth events stream through Redis into OpenSearch, get correlated into candidate incidents, and are matched against Sigma rules mapped to MITRE ATT&CK before an LLM summarizes each incident citing the exact log lines it used. An eval harness reports precision, recall, and false-positive rate against a labeled dataset.",
+      "longDescription": "SOC alert-triage pipeline: endpoint and auth events stream through Redis into OpenSearch, get correlated into candidate incidents, and are matched against Sigma rules mapped to MITRE ATT&CK before an LLM summarizes each incident citing the exact log lines it used. An eval harness reports precision, recall, and false-positive rate against a labeled dataset.",
       "category": "Backend Development",
       "technologies": [
         "Python",
-        "Dockerfile"
+        "OpenSearch",
+        "Redis Streams",
+        "Sigma",
+        "MITRE ATT&CK",
+        "Docker"
       ],
       "icon": "fas fa-project-diagram",
       "color": "#B19CD9",
@@ -140,15 +151,18 @@
     },
     {
       "title": "mlops-app",
-      "description": "Fully functional implementation with comprehensive features",
-      "longDescription": "Fully functional implementation with comprehensive features",
+      "description": "End-to-end MLOps pipeline on Google Cloud: Terraform-provisioned infrastructure, Prefect-orchestrated data flows, dbt transformations in BigQuery, MLflow experiment tracking, and a Dockerized FastAPI model API deployed to Cloud Run through GitHub Actions CI/CD.",
+      "longDescription": "End-to-end MLOps pipeline on Google Cloud: Terraform-provisioned infrastructure, Prefect-orchestrated data flows, dbt transformations in BigQuery, MLflow experiment tracking, and a Dockerized FastAPI model API deployed to Cloud Run through GitHub Actions CI/CD.",
       "category": "Backend Development",
       "technologies": [
-        "HCL",
         "Python",
-        "Jupyter Notebook",
-        "Dockerfile",
-        "Shell"
+        "Terraform",
+        "MLflow",
+        "Prefect",
+        "dbt",
+        "BigQuery",
+        "FastAPI",
+        "GitHub Actions"
       ],
       "icon": "fas fa-project-diagram",
       "color": "#2FC4B2",
@@ -168,13 +182,14 @@
     },
     {
       "title": "agentops-sentinel",
-      "description": "Interactive application built for continuous learning",
-      "longDescription": "Interactive application built for continuous learning",
+      "description": "Supervisor/critique agent framework for support-ticket triage: a planner routes each ticket to specialized tool-using sub-agents, a self-critique loop accepts, retries, or escalates every result, and each decision is captured as an OpenTelemetry span in a decision-trace dashboard. Hard guardrails — step limits, a cost budget, and per-step timeouts — keep every run bounded even when tools fail.",
+      "longDescription": "Supervisor/critique agent framework for support-ticket triage: a planner routes each ticket to specialized tool-using sub-agents, a self-critique loop accepts, retries, or escalates every result, and each decision is captured as an OpenTelemetry span in a decision-trace dashboard. Hard guardrails — step limits, a cost budget, and per-step timeouts — keep every run bounded even when tools fail.",
       "category": "Backend Development",
       "technologies": [
         "Python",
-        "HTML",
-        "Dockerfile"
+        "OpenTelemetry",
+        "LLM Agents",
+        "Docker"
       ],
       "icon": "fas fa-brain",
       "color": "#F2C14E",
@@ -194,12 +209,15 @@
     },
     {
       "title": "driftguard",
-      "description": "Full-featured application built as a learning exercise",
-      "longDescription": "Full-featured application built as a learning exercise",
+      "description": "Closed-loop ML lifecycle demonstrated on real bike-share data: train, track and register in MLflow, serve via FastAPI, detect concept drift from prediction PSI, and auto-retrain — cutting held-out MAE by 44.6% after a real 2011-to-2012 demand shift. Evaluation is leakage-free: both model versions are scored only on a held-out slice neither was trained on.",
+      "longDescription": "Closed-loop ML lifecycle demonstrated on real bike-share data: train, track and register in MLflow, serve via FastAPI, detect concept drift from prediction PSI, and auto-retrain — cutting held-out MAE by 44.6% after a real 2011-to-2012 demand shift. Evaluation is leakage-free: both model versions are scored only on a held-out slice neither was trained on.",
       "category": "Backend Development",
       "technologies": [
         "Python",
-        "Dockerfile"
+        "MLflow",
+        "FastAPI",
+        "Drift Detection",
+        "Docker"
       ],
       "icon": "fas fa-project-diagram",
       "color": "#FF6B6B",
@@ -219,12 +237,15 @@
     },
     {
       "title": "driftguard-llm",
-      "description": "Educational project for mastering software architecture",
-      "longDescription": "Educational project for mastering software architecture",
+      "description": "RAG service with a monitoring plane built into its hot path: every query embedding feeds a statistical drift detector, while an LLM-as-judge harness scores a rolling sample of production responses for faithfulness and relevance — firing alerts and flagging stale documents for re-embedding when either signal degrades.",
+      "longDescription": "RAG service with a monitoring plane built into its hot path: every query embedding feeds a statistical drift detector, while an LLM-as-judge harness scores a rolling sample of production responses for faithfulness and relevance — firing alerts and flagging stale documents for re-embedding when either signal degrades.",
       "category": "Backend Development",
       "technologies": [
         "Python",
-        "Dockerfile"
+        "RAG",
+        "LLM-as-Judge",
+        "Drift Detection",
+        "Docker"
       ],
       "icon": "fas fa-project-diagram",
       "color": "#4ECDC4",
@@ -244,10 +265,16 @@
     },
     {
       "title": "modelcard",
-      "description": "Practice application demonstrating full-stack development skills",
-      "longDescription": "Practice application demonstrating full-stack development skills",
+      "description": "Command-line tool that generates a deterministic Markdown model card from a trained scikit-learn estimator, its evaluation metrics, and dataset metadata — making reproducible, review-ready model documentation part of the workflow. Built with strict typing and a full test suite.",
+      "longDescription": "Command-line tool that generates a deterministic Markdown model card from a trained scikit-learn estimator, its evaluation metrics, and dataset metadata — making reproducible, review-ready model documentation part of the workflow. Built with strict typing and a full test suite.",
       "category": "Development",
-      "technologies": [],
+      "technologies": [
+        "Python",
+        "scikit-learn",
+        "mypy",
+        "pytest",
+        "Ruff"
+      ],
       "icon": "fas fa-project-diagram",
       "color": "#FFE66D",
       "image": "assets/images/projects/modelcard.jpg",
@@ -266,10 +293,16 @@
     },
     {
       "title": "ai_soc",
-      "description": "Practice repository for exploring advanced features",
-      "longDescription": "Practice repository for exploring advanced features",
+      "description": "Configuration-driven security-operations lab: a Wazuh SIEM wired to Suricata and Zeek network monitoring through Filebeat, alongside an LLM-backed detection-rule-generator service and a metrics dashboard.",
+      "longDescription": "Configuration-driven security-operations lab: a Wazuh SIEM wired to Suricata and Zeek network monitoring through Filebeat, alongside an LLM-backed detection-rule-generator service and a metrics dashboard.",
       "category": "Development",
-      "technologies": [],
+      "technologies": [
+        "Wazuh",
+        "Suricata",
+        "Zeek",
+        "Filebeat",
+        "Python"
+      ],
       "icon": "fas fa-project-diagram",
       "color": "#A8DADC",
       "image": "assets/images/projects/ai-soc.jpg",
